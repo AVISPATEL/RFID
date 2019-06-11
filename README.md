@@ -46,7 +46,6 @@ void loop() {
   Serial.print("Tap card key: ");
   Serial.println(strID);
 
-  // โค้ดส่วนควบคุมหลอด LED โดยเอาค่าจากตัวแปร strID มาเทียบ
   if (strID.indexOf("02:B5:5F:28") >= 0) {
     digitalWrite(LED_PIN, HIGH);
     delay(1000);

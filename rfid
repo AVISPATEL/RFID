@@ -1,5 +1,5 @@
 # RFID
-RFID using blink LED light and control servo motor
+Blink LED and control Servo motor using RFID
 #include "SPI.h"
 #include "MFRC522.h"
 #include<Servo.h>
